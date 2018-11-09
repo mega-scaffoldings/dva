@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background-image: url(../assets/footer.png);
+  background-position: left bottom;
+  background-repeat: repeat-x;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 150px;
+}
+
+.App-header {
+  background-color: #fff;
+  padding: 120px 0 30px;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.App-plus {
+  font-size: 30px;
+  color: #aaa;
+  margin-left: 30px;
+}
+
+.App-title {
+  font-size: 40px;
+  margin: 26px auto;
+}
+
+.App-intro {
+  font-size: 24px;
+}
+
+code {
+  padding: 0.2em;
+  margin: 0;
+  background-color: #f2f2f2;
+  font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  color: #0d4a59;
+  border-radius: 3px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
